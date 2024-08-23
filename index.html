@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body class=" tracking-wider">
+
+  <header class="sticky top-0 z-50">
+
+    <nav class="container flex justify-between items-center ">
+
+      <div class=" w-20 py-5 font-bold text-3xl font-title">
+        <a href="#home">Ernes<span class="text-secondary-1 ">to</span> </a>
+      </div>
+
+
+      <div>
+
+        <ul
+          class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-title">
+          <li><a href="#home" class="hover:text-secondary-1 ease-in duration-200">Home</a></li>
+          <li><a href="#abaut" class="hover:text-secondary-1 ease-in duration-200">Abaut me</a></li>
+          <li><a href="#project" class="hover:text-secondary-1 ease-in duration-200">Project</a></li>
+          <li><a href="#contact" class="hover:text-secondary-1 ease-in duration-200">Contact</a></li>
+
+        </ul>
+
+        <button class="block md:hidden ml-3 " onclick="openMenu()">
+
+          <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+        <!--------------------mobile menu------------------------->
+
+
+        <ul id="sideMenu"
+          class="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 font-title">
+
+          <button class="absolute right-6 top-6" onclick="closeMenu ()">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+
+          <li><a href="#home" class="hover:text-secondary-1 ease-in duration-200" onclick="closeMenu ()">Home</a></li>
+          <li><a href="#abaut" class="hover:text-secondary-1 ease-in duration-200" onclick="closeMenu ()">Abaut</a>
+          </li>
+          <li><a href="#project" class="hover:text-secondary-1 ease-in duration-200" onclick="closeMenu ()">Project</a>
+          </li>
+          <li><a href="#contact" class="hover:text-secondary-1 ease-in duration-200" onclick="closeMenu ()">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <section id="home" class="bg-[url('/css/img/B.webp')]  bg-no-repeat bg-bottom bg-cover bg-blue-300  h-svh ">
+
+      <div class="container py-20 ">
+
+        <div class="flex flex-col items-center z-20 md:flex-row">
+
+          <div class="  text-center mb-12 md:text-left md:w-1/2 md:pr-10 pt-20">
+
+            <h1 class="title text-white font-title">Front-End Developer</h1>
+
+            <p class=" leading-relaxed mb-10 font-bold mt-9 text-white font-body">Hi, l'am Ernesto MANDLATE. Front-End
+              Developer
+              based in Mozambique
+            </p>
+
+            <div>
+
+              <a href="https://www.linkedin.com/in/ernesto-mandlate "> <i class="fa-brands fa-linkedin pr-2"></i></a>
+
+              <a href="https://github.com/"> <i class="fa-brands fa-github"></i></a>
+
+            </div>
+
+
+            <div class="flex row mt-12 mb-12 md:text-left md:w-1/2 md:pr-10">
+              <h1 class=" leading-relaxed  font-bold  text-white mr-5 font-body">MySkills:</h1>
+              <img src="./css/img/html.png" alt="" class="h-7 w-7  mr-5  ">
+              <img src="./css/img/css.png" alt="" class="h-7 w-7   mr-5">
+              <br>
+              <img src="/css/img/js.png" alt="" class="h-7 w-7   mr-10">
+              <br>
+              <img src="/css/img/ts.png" alt="" class="h-7 w-7   mr-5">
+
+              <br>
+              <img src="/css/img/tailwind.png" alt="" class="h-7 w-7  mr-5  ">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="abaut">
+      <div class="container py-20 relative">
+
+        <div class="flex flex-col items-center justify-between md:flex-row">
+
+          <div class="mb-12 md:h-1/2  ">
+            <img src="css/img/photo.png" alt=" " class=" h-96 w-72 rounded-full p-1 m-3 xl:border-2 border-solid">
+          </div>
+
+          <div class="text-center md:text-left md:w-1/2 md:ml-20 ">
+
+            <h1 class="title pb-10   md:mt-12 font-title ">Abaut me</h1>
+            <p class="leading-relaxed mb-10 font-body">
+              Hello, l'm Ernesto Mandlate, a passionate and creative Front-End Developer based in Maputo, Mozambique. I
+              have a good background in web development and a deep love for design , I am dedicated to creating
+              user-friendly and visually appealing web experiences. Throughout my career, I've had the privilege of
+              working on a variety of exciting projects, from building responsive e-commerce websites to developing
+              interactive web applications. This experiences have allowed me to hone my skills and stay up-to-date with
+              the latest front-end technologies and trends. Feel free to explore my portfolio to see
+              same o my works if you have any questions or would like to collaborate, please don't hesitate to reach out
+            </p>
+
+          </div>
+        </div>
+
+        <div class=" text-blue-100 grid gap-5 mt-12 md:grid-cols-auto xl:grid-cols-2">
+
+          <a href="#contact" class="btn text-center md:text-center md:ml-20 pr-20 font-body">
+            Contact me <i class="fa-solid fa-arrow-up-right-from-square w-4"></i>
+          </a>
+          <a href="css/cv.docx" download class=" btn-1 text-center md:text-center md:ml-20 pr-20  font-body">My
+            resume <i class="fa-solid fa-arrow-down w-4"></i>
+
+          </a>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="project">
+      <div class="container py-20">
+        <div class="text-center pb-3 m-auto md:w-1/2">
+
+
+          <h1 class="title m-5 font-title">Project</h1>
+          <!----Rounded switch-->
+
+
+          <div class="mt-14 flex items-center justify-center gap-4">
+            <p>Previous</p>
+
+            <label class="cursor-pointer relative inline-block w-20  h-8 rounded-full ">
+              <input type="checkbox" id="toggleBtn" class="peer opacity-0 w-0 h-0">
+              <span class="absolute top-0 left-0 right-0 bottom-0 bg-slate-900 border border-solid border-gray-300 rounded-full
+                 duration-300 before:content-[''] before:absolute before:w-6 before:h-6 before:bottom-1 before:left-1 before:rounded-full
+                  before:bg-white before:duration-300 peer-checked:before:translate-x-12 peer-checked:bg-slate-600">
+              </span>
+            </label>
+            <p>Next</p>
+          </div>
+
+        </div>
+
+        <div class="grid gap-5 md:auto-cols-auto lg:grid-cols-3 mt-10">
+
+          <!----card 1-->
+          <div class="card relative h-96 w-auto">
+
+
+            <!--front side -->
+
+            <div id="card_1_front"
+              class="front px-7 py-11 roundede-2xl border-2 border-solid border-gray-300 h-full w-full">
+              <div class="relative">
+                <p
+                  class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0 ">
+
+                  20 <spam class="text-sm font-normal  tracking-wider">/per month</span>
+                </p>
+              </div>
+
+              <button class="card_btn"> Get Started</button>
+            </div>
+
+
+            <!--back side -->
+            <div id="card_1_back"
+              class="back rotate-y-180 px-7 py-11 roundede-2xl border-2 border-solid border-gray-300 h-full w-full absolute top-0 left-0">
+
+              <div class="relative">
+                <p
+                  class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0 ">
+
+                  500 <span class="text-sm font-normal  tracking-wider">/per month</span>
+                </p>
+              </div>
+              <button class="card_btn"> Get Started</button>
+            </div>
+
+          </div>
+
+          <!----card 2-->
+          <div class="card relative h-auto w-auto">
+
+
+
+            <!--front side -->
+
+            <div id="card_2_front"
+              class="front px-7 py-11 roundede-2xl border-2 border-solid border-gray-300 h-full w-full">
+
+              <div class="relative">
+                <p
+                  class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0 ">
+
+                  20 <spam class="text-sm font-normal  tracking-wider">/per month</span>
+                </p>
+              </div>
+              <button class="card_btn"> Get Started</button>
+            </div>
+
+
+            <!--back side -->
+            <div id="card_2_back"
+              class="back rotate-y-180 px-7 py-11 roundede-2xl border-2 border-solid border-gray-300 h-full w-full absolute top-0 left-0">
+
+              <div class="relative">
+                <p
+                  class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0 ">
+
+                  500 <span class="text-sm font-normal  tracking-wider">/per month</span>
+                </p>
+              </div>
+              <button class="card_btn"> Get Started</button>
+            </div>
+
+
+
+
+          </div>
+
+          <!----card 3-->
+          <div class="card relative h-auto w-auto">
+
+
+            <!--front side -->
+
+            <div id="card_3_front"
+              class="front px-7 py-11 roundede-2xl border-2 border-solid border-gray-300 h-full w-full">
+
+              <div class="relative">
+                <p
+                  class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0 ">
+
+                  20 <spam class="text-sm font-normal  tracking-wider">/per month</span>
+                </p>
+              </div>
+              <button class="card_btn"> Get Started</button>
+
+            </div>
+
+
+            <!--back side -->
+            <div id="card_3_back"
+              class="back rotate-y-180 px-7 py-11 roundede-2xl border-2 border-solid border-gray-300 h-full w-full absolute top-0 left-0">
+
+              <div class="relative">
+                <p
+                  class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0 ">
+
+                  5000 <span class="text-sm font-normal  tracking-wider">/per month</span>
+                </p>
+              </div>
+              <button class="card_btn"> Get Started</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <div class="bg-slate-600  relative">
+
+        <div class="container py-10">
+
+          <h4 class="text-center mb-2  text-lg font-body"> contact with me</h4>
+          <h2 class="text-center text-4xl font-title">Get in touch</h2>
+          <p class="text-center max-w-2xl mx-auto mt-5 mb-12  font-body"> I'd love to hear from you !
+            If you have any questions, comments or feedback, please use the form below
+          </p>
+
+          <form method="POST" action=" https://api.web3forms.com/submit " class="max-w-2xl mx-auto">
+            <input type="hidden" name="access_key" value="5828df84-bb0d-4cab-b5ae-48235005e513">
+
+            <div class="grid auto-cols gap-6 mt-10 mb-8">
+
+              <input type="text" placeholder="Enter your name "
+                class="flex1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white " required name="name">
+
+
+              <input type="text" placeholder="Enter your email "
+                class="flex1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white " required
+                name="email">
+
+            </div>
+
+
+            <textarea rows="6" placeholder="Enter your message "
+              class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6" required
+              name="message">
+            </textarea>
+
+            <button
+              class="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black font-title">
+
+              Submit now
+              <i class="fa-solid fa-arrow-right w-4"></i>
+
+            </button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section id="footer">
+      <div class=" relative">
+
+        <div class="container py-10">
+
+          <div class="mt20">
+            <div class="text-center">
+              <div class="w-max flex items-center gap-2 mx-auto">
+                <i class="fa-solid fa-envelope"></i>
+                emandlate4@gmail.com
+
+              </div>
+            </div>
+
+            <div class="text-center sm:flex items-center justify-between border-t border-gray-400 mx[10%] mt-12 py-6">
+              <p>@ 2024 Ernesto Mandlate. All rights reserved.</p>
+
+              <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0 ">
+                <li>
+                  <a href="https://www.linkedin.com/in/ernesto-mandlate">Linkedin</a>
+                </li>
+                <li>
+                  <a href="https://github.com/">Github</a>
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
