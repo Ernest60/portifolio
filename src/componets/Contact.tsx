@@ -60,8 +60,7 @@ const Contact = () => {
         </motion.div>
 
         <div className={`${layout.sectionReverse} px-6 gap-10 lg:gap-10`}>
-
-          <div className="flex flex-col gap-5">
+          <div data-aos="fade-right" className="flex flex-col gap-5">
             <h1 className="text-dimWhite font-bold">Let's Connect</h1>
 
             <p className={`${style.paragraph} max-w-[500px]`}>
@@ -102,6 +101,7 @@ const Contact = () => {
 
           <form
             id="form"
+            data-aos="fade-up"
             className={`flex flex-col relative gap-5 px-10m lg:min-w-[500px]`}
             onSubmit={handleSubmit}
           >

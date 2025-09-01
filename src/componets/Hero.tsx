@@ -19,7 +19,7 @@ const Hero = () => (
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
-        className="flex flex-col items-center md:w-[250px]"
+        className="flex flex-col py-10 items-center md:w-[250px]"
       >
         <h1
           className={`font-title w-full text-[40px] mt-15 text-dimWhite sm:leading-[76.8px] leading-[60.8px]`}

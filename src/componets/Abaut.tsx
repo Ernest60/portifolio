@@ -69,7 +69,7 @@ const Abaut = () => {
             </div>
 
             <div
-              data-aos="fade-left"
+              data-aos="fade-right"
               data-aos-delay="350"
               className={`flex flex-col gap-2`}
             >

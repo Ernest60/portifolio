@@ -43,6 +43,8 @@ const Skill = () => {
           }}
           speed={9000}
           modules={[Autoplay]}
+
+          data-aos="fade-up"
           className="max-w-[90%]"
         >
           {skillData.map((skill) => (
@@ -71,6 +73,9 @@ const Skill = () => {
           }}
           speed={9000}
           modules={[Autoplay]}
+
+            data-aos="fade-down"
+          
           className="max-w-[90%] "
         >
           {skillData.map((skill) => (
