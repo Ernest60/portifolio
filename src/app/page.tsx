@@ -16,6 +16,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 import { use, useEffect } from "react";
 
 const page = () => (
+
   useEffect(() => {
     const initAOS = async () => {
       await import("aos");
@@ -28,6 +29,7 @@ const page = () => (
     };
     initAOS();
   }),
+  
   (
     <div className="w-full overflow-hidden">
       <div

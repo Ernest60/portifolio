@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins, Prata } from "next/font/google";
+import { Poppins} from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Portifolio",
-  description: "Portifolio by create next js 15",
+  description: "Portifolio create by next.js 15",
 };
 
 export default function RootLayout({

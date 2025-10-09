@@ -35,7 +35,7 @@ react-toastify (notificações)
 
 ## Front end web
 
-Pré-requisitos: npm 
+Pré-requisitos: npm
 
 ```bash
 # clonar repositório

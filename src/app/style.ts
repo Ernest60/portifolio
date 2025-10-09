@@ -4,7 +4,7 @@ const style = {
   heading:
     "font-title text-[25px] text-dimWhite leading-[60.8px] text-dimWhite w-full lg:text-[40px]",
   paragraph:
-    "font-paragraph text-sm mb-3 leading-relaxed text-dimWhite md:text[18px] lg:text-xl",
+    "font-paragraph text-sm mb-3 leading-relaxed text-dimWhite md:text[18px] lg:text-[18px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

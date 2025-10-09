@@ -61,7 +61,7 @@ const Hero = () => (
       data-aos="fade-down-left"
       className={`${style.flexCenter} flex-col mt-05 relative hidden md:mt-14 md:flex`}
     >
-      <div className={`${style.flexCenter} flex-1 relative`}>
+      <div className={`${style.flexCenter} flex-1 relative mt-10`}>
         <Image
           src={photo}
           alt="photo"

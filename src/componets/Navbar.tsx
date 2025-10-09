@@ -21,6 +21,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+
         <span className="font-title text-xl text-dimWhite hover:text-primary">
           Ernesto Mandlate
         </span>
@@ -34,7 +35,7 @@ const Navbar = () => {
               key={nav.id}
               className={`font-paragraph font-normal cursor-pointer text-xl hover:text-primary ${
                 index === navLinks.length - 1 ? "mr-0" : "mr-8"
-              } text-dimWhite `}
+              } text-dimWhite`}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </motion.li>

@@ -176,6 +176,7 @@ export const projectDate = [
     title: "Gotravel",
     description: "Travel landing page with Next.Js and Typescript",
     img: project4,
-    on: "https://gotravel-h775.vercel.app/",
+    on: "https://gotravel-eight.vercel.app/",
+    
   },
 ];
